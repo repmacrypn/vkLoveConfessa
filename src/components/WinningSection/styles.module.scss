@@ -1,0 +1,36 @@
+@import 'src/styles/resourses/variables.scss';
+.content {
+    padding: 0 15px;
+}
+
+.title{
+    margin: 30px 0 15px;
+    font-size: 34px;
+    color: rgb(177, 18, 18);
+}
+
+.match{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 0;
+    padding: 0 10px;
+    text-decoration: underline;
+}
+
+.percentRate{
+    display: inline-block;
+    margin: 30px 0;
+    padding:15px 10px;
+    border: 2px solid rgb(138, 43, 43);
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.img{
+    display: inline-block;
+}
+
+.sign{
+    display: block;
+    margin: 0 auto 50px;
+}

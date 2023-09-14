@@ -1,0 +1,21 @@
+@import 'src/styles/resourses/variables.scss';
+
+.name {
+    max-width: 300px;
+    overflow-wrap: break-word;
+    display: inline-block;
+    margin: 5px 0;
+    font-size: 34px;
+}
+
+.logo {
+    position: absolute !important;
+    bottom: 8px;
+    right: 7%;
+    height: 90px;
+}
+
+.title {
+    font-family: $font-family-title;
+    font-size: 40px;
+}
