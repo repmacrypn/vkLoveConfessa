@@ -1,6 +1,6 @@
 import { useAppSelector } from 'src/hooks/useAppHooks'
 import { Name } from 'src/pages/Congrats/Common'
-import clownImg from 'src/assets/с.png'
+import heart from 'src/assets/heart.png'
 import sign from 'src/assets/sign.png'
 
 import styles from './styles.module.scss'
@@ -11,9 +11,9 @@ export const Section = () => {
     return (
         <section className={styles.data}>
             <div className={styles.match}>
-                <img className={styles.img} width={60} alt='clown' src={clownImg} />
+                <img className={styles.img} width={60} alt='clown' src={heart} />
                 подтверждает, что
-                <img className={styles.img} width={60} alt='clown' src={clownImg} />
+                <img className={styles.img} width={60} alt='clown' src={heart} />
             </div>
             <div className={styles.content}>
                 <Name name={nameValue1 || 'Аноним'} />{' '}

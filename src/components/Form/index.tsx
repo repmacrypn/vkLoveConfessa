@@ -20,28 +20,28 @@ export const Form = () => {
                     value={formData.nameValue1}
                     handleInputChange={handleInputChange}
                     placeholder='Имя...'
-                    label='Введи нужное имя:'
+                    label='Введи первое имя:'
                 />
                 <Input
                     name='surnameValue1'
                     value={formData.surnameValue1}
                     handleInputChange={handleInputChange}
-                    placeholder='Имя...'
-                    label='Введи нужное имя:'
+                    placeholder='Фамилия...'
+                    label='Введи первую фамилию:'
                 />
                 <Input
                     name='nameValue2'
                     value={formData.nameValue2}
                     handleInputChange={handleInputChange}
                     placeholder='Имя...'
-                    label='Введи нужное имя:'
+                    label='Введи второе имя:'
                 />
                 <Input
                     name='surnameValue2'
                     value={formData.surnameValue2}
                     handleInputChange={handleInputChange}
-                    placeholder='Имя...'
-                    label='Введи нужное имя:'
+                    placeholder='Фамилия...'
+                    label='Введи вторую фамилию:'
                 />
             </form>
             <NavButton
